@@ -1,20 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T03:03:41.874Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="8KUhvg6T5jHsFQJX5tMo" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T03:30:17.502Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ww-cj5UVhrPIvhfjsJzJ" version="14.9.0" type="github">
   <diagram id="tpBG7AxIHuY1awPjeITL" name="Page-1">
     <mxGraphModel dx="1550" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="LrFnlgKekaoEcTwpI7f7-3" value="文件上报服务" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;" parent="1" vertex="1">
-          <mxGeometry x="10" y="40" width="120" height="80" as="geometry" />
+          <mxGeometry x="280" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LrFnlgKekaoEcTwpI7f7-4" value="中央RPC服务" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
-          <mxGeometry x="190" y="40" width="150" height="80" as="geometry" />
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-147" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;杀软扫描服务&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LrFnlgKekaoEcTwpI7f7-5" value="文件上报" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
-          <mxGeometry x="610" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-148" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;鉴定器服务&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="G1Jo3BN_IHVQqCNElftp-1" value="分机RPC服务" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="150" height="80" as="geometry" />
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-149" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;入库服务&lt;/font&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-150" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;解包服务&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="990" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-151" value="&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;&lt;font style=&quot;vertical-align: inherit&quot;&gt;流程web服务&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G1Jo3BN_IHVQqCNElftp-152" value="用户" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
