@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T14:18:45.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="5yifV8BK8oyIdr4V8m9G" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T14:25:04.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="vL9f0VYbedE8-Q3qYdwM" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="2946" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5529" dy="2088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7nwJAHShgFqfV8WITLV7-1" value="水银样本任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=22;" parent="1" vertex="1">
-          <mxGeometry x="299" y="30" width="230" height="20" as="geometry" />
+        <mxCell id="7nwJAHShgFqfV8WITLV7-1" value="水银样本任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=35;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="-270" y="50" width="400" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="7nwJAHShgFqfV8WITLV7-2" target="hdSKTdFJiRucH8Rsu3lH-4">
           <mxGeometry relative="1" as="geometry" />
@@ -77,11 +77,11 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-22" value="创建/获取样本任务&lt;br&gt;t_sample_task" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
           <mxGeometry x="220" y="820" width="370" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-35" value="创建主流转流程任务&lt;br&gt;add_main_flow_handle_task（handle/views.py）&lt;br&gt;1、add_sample_flow_task组装数据调用save_sample_flow_data（）&lt;br&gt;2、把样本流转数据放到redis缓存key=sample_flow_data-{md5},有效期3天&lt;br&gt;3、把file_md5保存到redis队列，zadd到name=sample_flow_data_key的zset&lt;br&gt;4、如果成功没有保存到redis队列，则需要把数据保存到&lt;font color=&quot;#0000ff&quot;&gt;t_sample_flow_task&lt;/font&gt;表&lt;br&gt;5、更新&lt;font color=&quot;#0000ff&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表的combine_end_time时间&lt;br&gt;6、根据md5删除MongDB的sample_handle_task表的任务，重新插入" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-35" value="创建主流程处理任务&lt;br&gt;add_main_flow_handle_task（handle/views.py）&lt;br&gt;1、add_sample_flow_task组装数据调用save_sample_flow_data（）&lt;br&gt;2、把样本流转数据放到redis缓存key=sample_flow_data-{md5},有效期3天&lt;br&gt;3、把file_md5保存到redis队列，zadd到name=sample_flow_data_key的zset&lt;br&gt;4、如果成功没有保存到redis队列，则需要把数据保存到&lt;font color=&quot;#0000ff&quot;&gt;t_sample_flow_task&lt;/font&gt;表&lt;br&gt;5、更新&lt;font color=&quot;#0000ff&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表的combine_end_time时间&lt;br&gt;6、根据md5删除MongDB的sample_handle_task表的任务，重新插入" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
           <mxGeometry x="600" y="1038" width="750" height="352" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-36" value="&lt;span style=&quot;font-size: 22px&quot;&gt;不走鉴定流程的情况&lt;br style=&quot;font-size: 22px&quot;&gt;create_av_and_detector_task = False&lt;br style=&quot;font-size: 22px&quot;&gt;1、其他PE、坏包、加密包不处理&lt;br style=&quot;font-size: 22px&quot;&gt;2、文件大于300M不处理&lt;br style=&quot;font-size: 22px&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;VFILE&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;渠道的样本不需要走鉴定等流程，只保存样本&lt;br&gt;&lt;/span&gt;4、白样本收集渠道直接提白，第二天回扫&lt;br&gt;5、源服务端下载保护白渠道、海外样本鉴定（白）&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-440" y="740" width="510" height="237.5" as="geometry" />
+          <mxGeometry x="-420" y="720" width="510" height="237.5" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-49" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-40" target="hdSKTdFJiRucH8Rsu3lH-48">
           <mxGeometry relative="1" as="geometry" />
@@ -106,9 +106,9 @@
             <mxPoint x="-28" y="3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-48">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-48" target="hdSKTdFJiRucH8Rsu3lH-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400" y="1520" as="targetPoint" />
+            <mxPoint x="80" y="1690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-60" value="&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;task_flowtype=2&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;异步&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-59">
@@ -117,34 +117,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-48" value="同步/异步" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="1">
-          <mxGeometry x="3.75" y="1280" width="142.5" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-66" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1220" y="1280" width="860" height="460" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-64" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-66">
-          <mxGeometry width="860" height="400" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-62" value="&lt;font face=&quot;helvetica&quot;&gt;create_scanner_tasks&lt;/font&gt;(safescan\manager.py)&lt;br&gt;create_scanner_tasks_with_sync_to_queue&lt;br&gt;1、删除病毒样本任务（delete&lt;font color=&quot;#ff3333&quot;&gt; t_virus_sample_task/t_virus_sample_big_text&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的杀软id&lt;br&gt;3、（忽略没有杀软的情况）create_tasks_with_sync_to_queues先根据md5移除再创建扫描任务数据保存到MongDB的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;&lt;/span&gt;表&lt;br&gt;4、把扫描任务同步到Redis优先级队列" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
-          <mxGeometry y="196" width="860" height="204" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-63" value="create_detector_tasks(detector/manager.py)&lt;br&gt;create_detector_tasks_with_sync_to_queue&lt;br&gt;1、删除之前的鉴定结果（delete &lt;font color=&quot;#ff6666&quot;&gt;t_detector_result&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的鉴定器id&lt;br&gt;3、（忽略没有鉴定器的情况）create_detector_tasks_with_sync_to_queue把任务数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task&lt;/font&gt;表&lt;br&gt;4、同步任务到Redis优先级队列，优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
-          <mxGeometry width="860" height="196" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-65" value="1、更新t_sample_elapsed_time表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-66">
-          <mxGeometry y="400" width="860" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-68" value="&lt;div&gt;优先级大于0的直接创建杀软扫描任务和鉴定器任务，没有优先级的需要判断MongDB中的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task、av_scan_task&lt;/font&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;表的错误码9001001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1220" y="1170" width="860" height="110" as="geometry" />
+          <mxGeometry x="-6.25" y="1290" width="142.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-69" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;同步放在正常流程，&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="1450" width="220" height="40" as="geometry" />
+          <mxGeometry x="-370" y="1440" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-70" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 22px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: left; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;异步放在回扫流程&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="414" y="1470" width="200" height="40" as="geometry" />
+          <mxGeometry x="120" y="1610" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-71" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-40" y="1660" width="860" height="460" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-79" value="此处省略了不通数据来源调用不同方法的具体逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#FF33FF;" vertex="1" parent="1">
+          <mxGeometry x="299" y="927.5" width="249" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-80" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="7nwJAHShgFqfV8WITLV7-1" target="7nwJAHShgFqfV8WITLV7-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-81" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-360" y="1660" width="860" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-71" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-81">
+          <mxGeometry y="140" width="860" height="460" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-72" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-71">
           <mxGeometry width="860" height="400" as="geometry" />
@@ -158,11 +149,29 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-75" value="1、更新t_sample_elapsed_time表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-71">
           <mxGeometry y="400" width="860" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-76" value="&lt;div&gt;优先级大于0的直接创建杀软回扫任务和鉴定器回扫&lt;span&gt;任务，没有优先级的需要判断MongDB中的&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_rescan_task、kcs_rescan_task&lt;/span&gt;&lt;span&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;&lt;span&gt;表的错误码&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1520" width="860" height="140" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-76" value="&lt;div&gt;优先级大于0的直接创建杀软回扫任务和鉴定器回扫&lt;span&gt;任务，没有优先级的需要判断MongDB中的&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_rescan_task、kcs_rescan_task&lt;/span&gt;&lt;span&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;&lt;span&gt;表的错误码&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-81">
+          <mxGeometry width="860" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-79" value="此处省略了不通数据来源调用不同方法的具体逻辑" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#FF33FF;" vertex="1" parent="1">
-          <mxGeometry x="299" y="927.5" width="249" height="100" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-83" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-1260" y="1150" width="860" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-66" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-83">
+          <mxGeometry y="110" width="860" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-64" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-66">
+          <mxGeometry width="860" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-62" value="&lt;font face=&quot;helvetica&quot;&gt;create_scanner_tasks&lt;/font&gt;(safescan\manager.py)&lt;br&gt;create_scanner_tasks_with_sync_to_queue&lt;br&gt;1、删除病毒样本任务（delete&lt;font color=&quot;#ff3333&quot;&gt; t_virus_sample_task/t_virus_sample_big_text&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的杀软id&lt;br&gt;3、（忽略没有杀软的情况）create_tasks_with_sync_to_queues先根据md5移除再创建扫描任务数据保存到MongDB的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;&lt;/span&gt;表&lt;br&gt;4、把扫描任务同步到Redis优先级队列" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
+          <mxGeometry y="196" width="860" height="204" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-63" value="create_detector_tasks(detector/manager.py)&lt;br&gt;create_detector_tasks_with_sync_to_queue&lt;br&gt;1、删除之前的鉴定结果（delete &lt;font color=&quot;#ff6666&quot;&gt;t_detector_result&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的鉴定器id&lt;br&gt;3、（忽略没有鉴定器的情况）create_detector_tasks_with_sync_to_queue把任务数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task&lt;/font&gt;表&lt;br&gt;4、同步任务到Redis优先级队列，优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
+          <mxGeometry width="860" height="196" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-65" value="1、更新t_sample_elapsed_time表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-66">
+          <mxGeometry y="400" width="860" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-68" value="&lt;div&gt;优先级大于0的直接创建杀软扫描任务和鉴定器任务，没有优先级的需要判断MongDB中的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task、av_scan_task&lt;/font&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;表的错误码9001001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-83">
+          <mxGeometry width="860" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
