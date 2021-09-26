@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T10:03:11.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="wVl91sLRRoiMjRHeDAiA" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T12:44:21.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="YP88s1uY9Q8uOANlaK64" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,6 +47,9 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-15" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-11" target="hdSKTdFJiRucH8Rsu3lH-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-11" target="hdSKTdFJiRucH8Rsu3lH-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-11" value="判断file_name" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="350" y="490" width="113.75" height="80" as="geometry" />
         </mxCell>
@@ -59,8 +62,63 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-18" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;visit_count_file_name startswith(ksup、kspf)&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="20" y="540" width="340" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-19" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="540" y="490" width="80" height="80" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-20" target="hdSKTdFJiRucH8Rsu3lH-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-20" value="文件样本路径，机器ip放到缓存&lt;br&gt;有效期3天&lt;br&gt;key=store_path_and_server_ip-{md5}" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="205" y="620" width="400" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-38" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-22" target="hdSKTdFJiRucH8Rsu3lH-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-41" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-22" target="hdSKTdFJiRucH8Rsu3lH-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-22" value="创建/获取样本任务&lt;br&gt;t_sample_task" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="220" y="820" width="370" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-35" value="&lt;span&gt;add_main_flow_handle_task&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1038" width="490" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-36" value="&lt;span style=&quot;font-size: 22px&quot;&gt;不走鉴定流程的情况&lt;br style=&quot;font-size: 22px&quot;&gt;create_av_and_detector_task = False&lt;br style=&quot;font-size: 22px&quot;&gt;1、其他PE、坏包、加密包不处理&lt;br style=&quot;font-size: 22px&quot;&gt;2、文件大于300M不处理&lt;br style=&quot;font-size: 22px&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;VFILE&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;渠道的样本不需要走鉴定等流程，只保存样本&lt;br&gt;&lt;/span&gt;4、白样本收集渠道直接提白，第二天回扫&lt;br&gt;5、源服务端下载保护白渠道、海外样本鉴定（白）&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="660" width="490" height="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-49" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-40" target="hdSKTdFJiRucH8Rsu3lH-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-40" value="创建鉴定器任务&lt;br&gt;add_av_and_detector_task&lt;br&gt;往t_detector_combine_result表插入鉴定结果初始数据" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1030" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-44" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 22px ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;create_av_and_detector_task =true&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="15" y="970" width="390" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-46" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-780" y="1255" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-50" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-48" target="hdSKTdFJiRucH8Rsu3lH-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-52" value="&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;task_flowtype=1&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;同步&lt;/font&gt;&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-50">
+          <mxGeometry x="-0.2971" y="-3" relative="1" as="geometry">
+            <mxPoint x="-28" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-48" target="hdSKTdFJiRucH8Rsu3lH-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-60" value="&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;task_flowtype=2&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font face=&quot;helvetica&quot;&gt;异步&lt;/font&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-59">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-48" value="同步/异步" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="3.75" y="1280" width="142.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-54" value="创建鉴定器任务&lt;br&gt;add_av_and_detector_task&lt;br&gt;往t_detector_combine_result表插入鉴定结果初始数据" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="1480" width="550" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-55" value="同步/异步标记，同步放在正常流程，&lt;br&gt;异步放在回扫流程" style="text;whiteSpace=wrap;html=1;fontSize=22;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="1180" width="390" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
