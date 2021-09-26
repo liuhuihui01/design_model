@@ -1,14 +1,39 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T08:43:55.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Ia9PLxKUAFCTVSN0m-QE" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T08:52:55.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="mM8AAPMF6lTdUQLZePVU" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="1824" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2377" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7nwJAHShgFqfV8WITLV7-1" value="水银样本任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+        <mxCell id="7nwJAHShgFqfV8WITLV7-1" value="水银样本任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=22;" parent="1" vertex="1">
           <mxGeometry x="299" y="30" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7nwJAHShgFqfV8WITLV7-2" value="RPC接口收到文件已经上传完毕的请求sampleupload/save_file_uploaded_info_new" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
-          <mxGeometry x="160" y="130" width="520" height="90" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="7nwJAHShgFqfV8WITLV7-2" target="hdSKTdFJiRucH8Rsu3lH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-7" value="函数调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-5">
+          <mxGeometry x="-0.4741" relative="1" as="geometry">
+            <mxPoint y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7nwJAHShgFqfV8WITLV7-2" value="sampleupload/views.save_file_uploaded_info_new()" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" parent="1" vertex="1">
+          <mxGeometry x="140" y="150" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-2" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-1" target="7nwJAHShgFqfV8WITLV7-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-3" value="rpc调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-2">
+          <mxGeometry x="-0.4" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-1" value="1、样本成功上传" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="142.5" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-4" value="save_file_info" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="140" y="270" width="530" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-8" value="样本任务创建&lt;br&gt;t_sample_elapsed_time" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="400" width="270" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
