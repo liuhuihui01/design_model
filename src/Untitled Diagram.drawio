@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-26T13:49:17.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="GahmcaXxxNCN94aFkq7a" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-26T13:49:54.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="rJ1BXUzFPBFySzVq2LwU" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="2946" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -78,7 +78,7 @@
           <mxGeometry x="220" y="820" width="370" height="95" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-35" value="&lt;span&gt;创建主流程任务&lt;br&gt;add_main_flow_handle_task&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1038" width="490" height="131" as="geometry" />
+          <mxGeometry x="680" y="1050" width="490" height="131" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-36" value="&lt;span style=&quot;font-size: 22px&quot;&gt;不走鉴定流程的情况&lt;br style=&quot;font-size: 22px&quot;&gt;create_av_and_detector_task = False&lt;br style=&quot;font-size: 22px&quot;&gt;1、其他PE、坏包、加密包不处理&lt;br style=&quot;font-size: 22px&quot;&gt;2、文件大于300M不处理&lt;br style=&quot;font-size: 22px&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;VFILE&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;渠道的样本不需要走鉴定等流程，只保存样本&lt;br&gt;&lt;/span&gt;4、白样本收集渠道直接提白，第二天回扫&lt;br&gt;5、源服务端下载保护白渠道、海外样本鉴定（白）&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-440" y="660" width="490" height="207.5" as="geometry" />
