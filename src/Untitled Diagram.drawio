@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T05:33:52.460Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="tBe52RItviBEn0UWLRi1" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T12:46:30.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="71KLnnkdZMxfOSBD6UMd" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="3478" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4305" dy="982" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,28 +150,28 @@
           <mxGeometry width="860" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-83" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-1260" y="1150" width="860" height="570" as="geometry" />
+          <mxGeometry x="-1260" y="1100" width="860" height="620" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-66" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-83">
-          <mxGeometry y="110" width="860" height="460" as="geometry" />
+          <mxGeometry y="119.64912280701755" width="860" height="500.35087719298247" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-64" value="" style="group" vertex="1" connectable="0" parent="hdSKTdFJiRucH8Rsu3lH-66">
-          <mxGeometry width="860" height="400" as="geometry" />
+          <mxGeometry width="860" height="435.08771929824564" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-62" value="&lt;font face=&quot;helvetica&quot;&gt;create_scanner_tasks&lt;/font&gt;(safescan\manager.py)&lt;br&gt;create_scanner_tasks_with_sync_to_queue&lt;br&gt;1、删除病毒样本任务（delete&lt;font color=&quot;#ff3333&quot;&gt; t_virus_sample_task/t_virus_sample_big_text&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的杀软id&lt;br&gt;3、（忽略没有杀软的情况）create_tasks_with_sync_to_queues先根据md5移除再创建扫描任务数据保存到MongDB的&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;&lt;/span&gt;表&lt;br&gt;4、把扫描任务同步到Redis优先级队列,task_priority优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
-          <mxGeometry y="196" width="860" height="204" as="geometry" />
+          <mxGeometry y="213.19298245614036" width="860" height="221.89473684210526" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-63" value="create_detector_tasks(detector/manager.py)&lt;br&gt;create_detector_tasks_with_sync_to_queue&lt;br&gt;1、删除之前的鉴定结果（delete &lt;font color=&quot;#ff6666&quot;&gt;t_detector_result&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的鉴定器id&lt;br&gt;3、（忽略没有鉴定器的情况）create_detector_tasks_with_sync_to_queue把任务数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task&lt;/font&gt;表&lt;br&gt;4、同步任务到Redis优先级队列，task_priority优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
-          <mxGeometry width="860" height="196" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-63" value="create_detector_tasks(detector/manager.py)&lt;br&gt;create_detector_tasks_with_sync_to_queue&lt;br&gt;1、删除之前的鉴定结果（delete &lt;font color=&quot;#ff6666&quot;&gt;t_detector_result&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的鉴定器id&lt;br&gt;3、（忽略没有鉴定器的情况）create_detector_tasks_with_sync_to_queue把任务数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task&lt;/font&gt;表&lt;br&gt;4、同步任务到Redis优先级队列，队列&lt;font color=&quot;#00cc00&quot;&gt;id=scanner+kcs_scan_task+是否大文件&lt;/font&gt;&lt;br&gt;task_priority优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-64">
+          <mxGeometry width="860" height="213.19298245614036" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-65" value="1、更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-66">
-          <mxGeometry y="400" width="860" height="60" as="geometry" />
+          <mxGeometry y="435.08771929824564" width="860" height="65.26315789473685" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-68" value="&lt;div&gt;优先级大于0的直接创建杀软扫描任务和鉴定器任务，没有优先级的需要判断MongDB中的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task、av_scan_task&lt;/font&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;表的错误码9001001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-83">
-          <mxGeometry width="860" height="110" as="geometry" />
+          <mxGeometry width="860" height="119.64912280701755" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-84" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 22px&quot;&gt;&lt;b&gt;同步-正常流程&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;" vertex="1" parent="1">
-          <mxGeometry x="-960" y="1110" width="210" height="20" as="geometry" />
+          <mxGeometry x="-960" y="1060" width="210" height="20" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-86" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-size: 22px ; font-style: normal ; letter-spacing: normal ; text-align: left ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none&quot;&gt;新增主流程处理任务&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=22;fontFamily=Helvetica;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1000" y="987.5" width="200" height="40" as="geometry" />
@@ -199,6 +199,12 @@
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-95" value="后续" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;fontSize=22;align=left;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="1380" y="1160" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-97" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="1590" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-98" value="scan_server_auto_adjust.py&lt;br&gt;1、判断是否是大文件扫描，如果是大文件用扫大文件的机器&lt;br&gt;2、" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1970" y="1400" width="550" height="420" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
