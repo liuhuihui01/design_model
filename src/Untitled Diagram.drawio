@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T11:36:59.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="lxY9DF2FHXO0ZlyWVIkQ" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T11:37:13.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="pYRWxzbjUOfbM2-RyAF2" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="4695" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-74" value="rescan_create_detector_tasks(detector/manager.py)&lt;br&gt;create_detector_tasks_with_sync_to_queue&lt;br&gt;1、删除之前的鉴定结果（delete &lt;font color=&quot;#ff6666&quot;&gt;t_detector_result&lt;/font&gt; by md5）&lt;br&gt;2、获取所有的鉴定器id&lt;br&gt;3、（忽略没有鉴定器的情况）create_detector_tasks_with_sync_to_queue先根据md5把任务删掉再把任务数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;kcs_rescan_task&lt;/font&gt;表&lt;br&gt;4、鉴定任务同步任务到Redis优先级队列，优先级越高，优先执行（zset）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-72">
           <mxGeometry width="860" height="196" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-75" value="1、更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=center;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-71">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-75" value="1、更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-71">
           <mxGeometry y="400" width="860" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-76" value="&lt;div&gt;优先级大于0的直接创建杀软回扫任务和鉴定器回扫&lt;span&gt;任务，没有优先级的需要判断MongDB中的&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_rescan_task、kcs_rescan_task&lt;/span&gt;&lt;span&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;&lt;span&gt;表的错误码&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="hdSKTdFJiRucH8Rsu3lH-81">
