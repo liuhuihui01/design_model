@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-29T11:35:36.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Z-rjG8aj8CgM7lwFB-8T" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-29T11:36:06.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="AoHthnk9ifs9CBQX86kp" version="15.3.3" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="4695" dy="1193" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-92" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-89" target="hdSKTdFJiRucH8Rsu3lH-90">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-89" value="2、批量操作把原来队列的数据移到&lt;font color=&quot;#ffb570&quot;&gt;zset key =sample_flow_data_running&lt;/font&gt;样本处理中的队列并把原来队列删除,同时把任务添加到task[]，对于那些没有获取到值的数据移除队列，（并把对应数据，设置过期时间30自动删除）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-89" value="2、批量操作把原来队列的数据移到&lt;font color=&quot;#ffb570&quot;&gt;zset key =sample_flow_data_running&lt;/font&gt;样本处理中的队列并把原来队列删除,同时把任务添加到task[]，对于那些没有获取到值的数据移除队列，（并把对应数据，设置过期时间30s自动删除）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
           <mxGeometry x="1470" y="1310" width="750" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-94" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-90" target="hdSKTdFJiRucH8Rsu3lH-93">
