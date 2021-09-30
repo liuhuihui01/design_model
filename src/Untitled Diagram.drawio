@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T08:52:14.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="CtDfNMhqRjWhtLMYDB-X" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T08:52:38.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="cMG82c8qIQMOda3cof3A" version="15.3.7" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="14468" dy="6736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="11885" dy="5344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -161,7 +161,7 @@
           <mxGeometry x="1400" y="1261" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-98" value="&lt;span style=&quot;font-size: 24px&quot;&gt;scan_server_auto_adjust.py&lt;font style=&quot;font-size: 24px&quot;&gt;扫描服务器自动调整？&lt;/font&gt;&lt;br&gt;1、充分利用空闲机器，协助任务堆积的任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6D0DE;" parent="1" vertex="1">
-          <mxGeometry x="-1570" y="600" width="590" height="120" as="geometry" />
+          <mxGeometry x="-1960" y="2650" width="810" height="190" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-100" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt; &lt;/span&gt;&amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;b&gt;文件上报服务（uploadapp）&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;h4 id=&quot;id-文件上报+入库服务-接收上报的普通文件（/uploadsample接口）&quot; style=&quot;margin: 10px 0px 0px ; padding: 0px ; line-height: 1.42857 ; letter-spacing: -0.003em ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px ; font-weight: normal&quot;&gt;1、接收上报的普通文件，保存在临时目录，并校验，非法则删除&lt;/font&gt;&lt;/h4&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;2、将zip文件处理完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;3、去新的文件上报系统拉取样本到指定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;4、解密和unzip解压，解压完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-1560" y="83" width="690" height="200" as="geometry" />
