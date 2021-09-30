@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T03:14:09.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="llaWoFZmlYzgx2s_K8gp" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T03:14:31.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="aeYEo47JXe613jL8pOTp" version="15.3.7" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="5064" dy="2561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -376,7 +376,7 @@
         <mxCell id="LtVPb9jL59xOHaWL_HOs-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;npe_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="2820" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务，重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务&lt;br&gt;2、重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1045" y="3640" width="410" height="132" as="geometry" />
         </mxCell>
       </root>
