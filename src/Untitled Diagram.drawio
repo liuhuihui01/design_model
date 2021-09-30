@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T08:52:38.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="cMG82c8qIQMOda3cof3A" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T08:53:50.310Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="L57oTEtupZJ21072jufK" version="15.3.7" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="11885" dy="5344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6718" dy="2561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,25 +137,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-87" value="主流程处理任务流转(halder/move_sample_flow_task_for_cache.py)&lt;br&gt;1、从队列&lt;font color=&quot;#00cc00&quot;&gt;zset key =sample_flow_data_running&lt;/font&gt;获取任务数据添加到task[]" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="1242.5" width="750" height="95" as="geometry" />
+          <mxGeometry x="1500" y="1242.5" width="840" height="95" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-92" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-89" target="hdSKTdFJiRucH8Rsu3lH-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-89" value="2、批量操作把原来队列的数据移到&lt;font color=&quot;#00cc00&quot;&gt;zset key =sample_flow_data_running&lt;/font&gt;样本处理中的队列并把原来队列删除,同时把任务添加到task[]，对于那些没有获取到值的数据移除队列，（并把对应数据，设置过期时间30s自动删除）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1540" y="1410" width="750" height="120" as="geometry" />
+          <mxGeometry x="1500" y="1400" width="840" height="120" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-94" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=35;fontColor=#FF33FF;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-90" target="hdSKTdFJiRucH8Rsu3lH-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-90" value="task[]处理后变成流程集合process_list,通过调用move函数，&lt;br&gt;1、handle_sample_signature处理样本特征，apk文件会根据md5查询&lt;font color=&quot;#0000ff&quot;&gt;t_mobile_repack&lt;/font&gt;表不存在跳过。&lt;br&gt;2、repack_src_sign_md5/sign_md5查询手机云特征表&lt;font color=&quot;#0000ff&quot;&gt;t_sample_signature_mobile&lt;/font&gt;&lt;br&gt;3、提取样本特征保持到相应的表（小于2G的样本，超过2G保存）" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1495" y="1615" width="840" height="135" as="geometry" />
+          <mxGeometry x="1500" y="1588" width="840" height="135" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-117" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-93" target="hdSKTdFJiRucH8Rsu3lH-116" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-93" value="根据样本的类型不同保存到不同的特征表&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;1、t_sample_signature文件云特征表&lt;br&gt;2、t_sample_signature_pak压缩包特征表&lt;br&gt;3、t_sample_signature_mobile手机云特征表&lt;br&gt;4、t_sample_signature_no_signature无特征的特征表&lt;br&gt;5、t_sample_signature_npe非PE特征表&lt;br&gt;&lt;br&gt;6、t_sample_signature_publish文件云特征发布表&lt;br&gt;7、t_sample_signature_publish_mobile_pc手机云特征发布表(PC端)&lt;br&gt;8、t_sample_signature_publish_mobile手机云特征发布表(移动端，仅特征码)&lt;br&gt;9、t_sample_signature_publish_mobile_detail手机云特征发布表(移动端，仅详情)&lt;br&gt;10、t_sample_signature_publish_mobile_overseas_detail手机云特征发布表(移动端海外服务器，仅详情)&lt;br&gt;11、t_sample_signature_publish_npe文件云特征发布表 非PE特征&lt;br&gt;12、t_sample_signature_error3.0特征错误历史&lt;br&gt;13、t_false_md5_apptype_sign_prepare apptype预发布表（添加去误报任务）&lt;br&gt;14、t_false_md5_sign_prepare 去误报md5预发布表（添加signmd5去误报任务）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1470" y="1830" width="890" height="480" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-93" value="根据样本的类型不同保存到不同的特征表&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;1、t_sample_signature文件云特征表&lt;br&gt;2、t_sample_signature_pak压缩包特征表&lt;br&gt;3、t_sample_signature_mobile手机云特征表&lt;br&gt;4、t_sample_signature_no_signature无特征的特征表&lt;br&gt;5、t_sample_signature_npe非PE特征表&lt;br&gt;6、t_sample_signature_publish文件云特征发布表&lt;br&gt;7、t_sample_signature_publish_mobile_pc手机云特征发布表(PC端)&lt;br&gt;8、t_sample_signature_publish_mobile手机云特征发布表(移动端，仅特征码)&lt;br&gt;9、t_sample_signature_publish_mobile_detail手机云特征发布表(移动端，仅详情)&lt;br&gt;10、t_sample_signature_publish_mobile_overseas_detail手机云特征发布表(移动端海外服务器，仅详情)&lt;br&gt;11、t_sample_signature_publish_npe文件云特征发布表 非PE特征&lt;br&gt;12、t_sample_signature_error3.0特征错误历史&lt;br&gt;13、t_false_md5_apptype_sign_prepare apptype预发布表（添加去误报任务）&lt;br&gt;14、t_false_md5_sign_prepare 去误报md5预发布表（添加signmd5去误报任务）&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1770" width="840" height="480" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-95" value="后续" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;fontSize=22;align=left;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1261" width="80" height="60" as="geometry" />
@@ -172,7 +172,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-116" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#FF6666;align=center;" parent="1" vertex="1">
-          <mxGeometry x="1880" y="2390" width="80" height="80" as="geometry" />
+          <mxGeometry x="1880" y="2319" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-120" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-118" target="hdSKTdFJiRucH8Rsu3lH-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
