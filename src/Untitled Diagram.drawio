@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T02:51:25.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="tsLXz-Wg9U2sbCb24LdL" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T03:07:28.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="v3LZ0r8c9bt0MLhbGZPD" version="15.3.7" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
     <mxGraphModel dx="4695" dy="2362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -200,7 +200,7 @@
           <mxGeometry x="1470" y="1830" width="890" height="480" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-95" value="后续" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;fontSize=22;align=left;hachureGap=4;" parent="1" vertex="1">
-          <mxGeometry x="1450" y="1260" width="80" height="60" as="geometry" />
+          <mxGeometry x="1400" y="1261" width="80" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-98" value="&lt;span style=&quot;font-size: 24px&quot;&gt;scan_server_auto_adjust.py&lt;font style=&quot;font-size: 24px&quot;&gt;扫描服务器自动调整？&lt;/font&gt;&lt;br&gt;1、充分利用空闲机器，协助任务堆积的任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-1610" y="1460" width="590" height="120" as="geometry" />
@@ -275,7 +275,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-144" value="&lt;div&gt;&lt;div&gt;mobile_judge.py&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;judge（）总评入口&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;judge.py kcs_judge&lt;/span&gt;()鉴定器总评入口：根据所有鉴定器结果取得总评分数，得到总分和结果&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt;mobile_safescan/&lt;/span&gt;&lt;/font&gt;judge.py va_judge()杀软总评入口:得到分數、扫描结果等&lt;/div&gt;&lt;div&gt;&lt;span&gt;get_combine_score&lt;/span&gt;计算总评分数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;get_combine_result计算总评结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;repair_combine_result&lt;span&gt;修正总评结果&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-144" value="&lt;div&gt;&lt;div&gt;mobile_judge.py&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;1、judge（）总评入口&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;judge.py kcs_judge&lt;/span&gt;()鉴定器总评入口：根据所有鉴定器结果取得总评分数，得到总分和结果&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt;2、mobile_safescan/&lt;/span&gt;&lt;/font&gt;judge.py va_judge()杀软总评入口:得到分數、扫描结果等&lt;/div&gt;&lt;div&gt;&lt;span&gt;3、get_combine_score&lt;/span&gt;计算总评分数&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;4、get_combine_result计算总评结果&lt;/span&gt;&lt;/div&gt;&lt;div&gt;4、repair_combine_result&lt;span&gt;修正总评结果&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="3010" width="620" height="280" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-149" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-146" target="hdSKTdFJiRucH8Rsu3lH-148" edge="1">
@@ -287,16 +287,11 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-146" value="server/combine/views.py&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;把总评结果记录到&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;t_detector_combine_result表&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1630" y="3493" width="620" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-150" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-148" target="hdSKTdFJiRucH8Rsu3lH-35" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1770" y="3220" />
-              <mxPoint x="2980" y="1170" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-148" target="LtVPb9jL59xOHaWL_HOs-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-148" value="&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 15.0667px ; text-align: left&quot;&gt;总评结果是白或者黑&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-940" y="3466" width="200" height="100" as="geometry" />
+          <mxGeometry x="-940" y="3490" width="200" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-155" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-151" target="hdSKTdFJiRucH8Rsu3lH-152" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -305,8 +300,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-151" value="&lt;font style=&quot;font-size: 24px&quot;&gt;server/views.py&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;格式化结果把总评结果记录到&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;t_detector_combine_result表&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;云3结果处理&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;最终组装数据重走&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;add_sample_flow_task流程&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
-          <mxGeometry x="-1630" y="3632" width="620" height="198" as="geometry" />
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-151" value="&lt;font style=&quot;font-size: 24px&quot;&gt;server/views.py&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;格式化结果把总评结果记录到&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;t_detector_combine_result表&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;云3结果处理&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;最终组装最新的数据重走&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;add_sample_flow_task流程&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-1630" y="3790" width="620" height="198" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-154" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-152" target="hdSKTdFJiRucH8Rsu3lH-134" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -343,11 +338,19 @@
         <mxCell id="LtVPb9jL59xOHaWL_HOs-2" value="根据样本类型" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="-1420" y="2810" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-6" value="&lt;span style=&quot;font-size: 24px ; text-align: left&quot;&gt;mobile_judge.py&lt;/span&gt;&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 24px;&quot;&gt;&lt;span style=&quot;font-size: 24px;&quot;&gt;pc_judge()&lt;/span&gt;&lt;/pre&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="-1930" y="2805" width="290" height="110" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-6" target="LtVPb9jL59xOHaWL_HOs-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1785" y="3310" />
+              <mxPoint x="-1320" y="3310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-6" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span&gt;pc_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="-1930" y="2806.25" width="290" height="107.5" as="geometry" />
         </mxCell>
         <mxCell id="LtVPb9jL59xOHaWL_HOs-15" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;根据配置参数&lt;/font&gt;IS_BETA走不一样的测试的鉴定流程&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;npe_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;pc_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;总评完回把云3结果记录在t_test_run_data&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-2360" y="3278" width="620" height="184" as="geometry" />
+          <mxGeometry x="-2420" y="3278" width="620" height="184" as="geometry" />
         </mxCell>
         <mxCell id="LtVPb9jL59xOHaWL_HOs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-16" target="LtVPb9jL59xOHaWL_HOs-15">
           <mxGeometry relative="1" as="geometry" />
@@ -360,8 +363,20 @@
         <mxCell id="LtVPb9jL59xOHaWL_HOs-16" value="&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;IS_BETA?&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
           <mxGeometry x="-1420" y="3320" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-21" value="&lt;span style=&quot;text-align: left ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;npe_judge()&lt;/span&gt;&lt;span style=&quot;text-align: left ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-21" target="LtVPb9jL59xOHaWL_HOs-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1320" y="3310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-885" y="3310" />
+              <mxPoint x="-1320" y="3310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-21" value="&lt;span style=&quot;text-align: left ; font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;npe_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1010" y="2820" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务，重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1045" y="3640" width="410" height="132" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
