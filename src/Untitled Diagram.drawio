@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T03:15:13.422Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="5gnmJTJo0DWKxeJ6zH8t" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-30T03:16:02.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="TWBxTErS-BhsX7P9u64A" version="15.3.7" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="6356" dy="3257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4695" dy="2362" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
           <mxGeometry x="610" y="985.5" width="750" height="92" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-36" value="&lt;span style=&quot;font-size: 22px&quot;&gt;不走鉴定流程的情况&lt;br style=&quot;font-size: 22px&quot;&gt;create_av_and_detector_task = False&lt;br style=&quot;font-size: 22px&quot;&gt;1、其他PE、坏包、加密包不处理&lt;br style=&quot;font-size: 22px&quot;&gt;2、文件大于300M不走鉴定流程&lt;br style=&quot;font-size: 22px&quot;&gt;3、&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;VFILE&lt;/span&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;渠道的样本不需要走鉴定等流程，只保存样本&lt;br&gt;&lt;/span&gt;4、白样本收集渠道直接提白，第二天回扫&lt;br&gt;5、源服务端下载保护白渠道、海外样本鉴定（白）&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;span style=&quot;font-size: 22px&quot;&gt;&lt;br style=&quot;font-size: 22px&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="720" width="510" height="237.5" as="geometry" />
+          <mxGeometry x="-460" y="720" width="510" height="237.5" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-49" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=22;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-40" target="hdSKTdFJiRucH8Rsu3lH-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -378,6 +378,18 @@
         </mxCell>
         <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务&lt;br&gt;2、重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1045" y="3640" width="410" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="1190" as="sourcePoint" />
+            <mxPoint x="40" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-36" target="hdSKTdFJiRucH8Rsu3lH-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="940" as="sourcePoint" />
+            <mxPoint x="90" y="890" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
