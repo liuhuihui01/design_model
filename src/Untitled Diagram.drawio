@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-09-30T10:46:10.069Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="umrYXypK6iXAW8H5aghw" version="15.3.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-08T08:22:14.552Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ow3MSZ9I28mbWG-csoRa" version="15.3.8" type="github">
   <diagram id="KefcSTh8LU217DtaOy7r" name="Page-1">
-    <mxGraphModel dx="15206" dy="6733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7239" dy="2841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-79" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;align=left;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-79" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;align=left;" parent="1" vertex="1">
           <mxGeometry x="-4010" y="-190" width="6600" height="4190" as="geometry" />
         </mxCell>
         <mxCell id="7nwJAHShgFqfV8WITLV7-1" value="水银样本任务流程图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;fontSize=35;fontStyle=1" parent="1" vertex="1">
@@ -166,7 +166,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-98" value="&lt;span style=&quot;font-size: 24px&quot;&gt;scan_server_auto_adjust.py&lt;font style=&quot;font-size: 24px&quot;&gt;扫描服务器自动调整？&lt;/font&gt;&lt;br&gt;1、充分利用空闲机器，协助任务堆积的任务&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;fontFamily=Helvetica;fontColor=#000000;labelBackgroundColor=none;fillColor=#E6D0DE;" parent="1" vertex="1">
           <mxGeometry x="-1960" y="2650" width="810" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="hdSKTdFJiRucH8Rsu3lH-100" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt; &lt;/span&gt;&amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;b&gt;文件上报服务（uploadapp）&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;h4 id=&quot;id-文件上报+入库服务-接收上报的普通文件（/uploadsample接口）&quot; style=&quot;margin: 10px 0px 0px ; padding: 0px ; line-height: 1.42857 ; letter-spacing: -0.003em ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px ; font-weight: normal&quot;&gt;（来源：客户端、人工、样本交换）&lt;/font&gt;&lt;/h4&gt;&lt;h4 id=&quot;id-文件上报+入库服务-接收上报的普通文件（/uploadsample接口）&quot; style=&quot;margin: 10px 0px 0px ; padding: 0px ; line-height: 1.42857 ; letter-spacing: -0.003em ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px ; font-weight: normal&quot;&gt;1、接收上报的普通文件，保存在临时目录，并校验，非法则删除&lt;/font&gt;&lt;/h4&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;2、将zip文件处理完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;3、去新的文件上报系统拉取样本到指定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;4、解密和unzip解压，解压完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="hdSKTdFJiRucH8Rsu3lH-100" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt; &lt;/span&gt;&amp;nbsp; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt; &lt;/span&gt;&lt;/span&gt;&lt;b&gt;文件上报服务（uploadapp）&lt;/b&gt;&lt;br&gt;&lt;/font&gt;&lt;h4 id=&quot;id-文件上报+入库服务-接收上报的普通文件（/uploadsample接口）&quot; style=&quot;margin: 10px 0px 0px ; padding: 0px ; line-height: 1.42857 ; letter-spacing: -0.003em ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px ; font-weight: normal&quot;&gt;（来源：客户端、人工、样本交换）&lt;/font&gt;&lt;/h4&gt;&lt;h4 id=&quot;id-文件上报+入库服务-接收上报的普通文件（/uploadsample接口）&quot; style=&quot;margin: 10px 0px 0px ; padding: 0px ; line-height: 1.42857 ; letter-spacing: -0.003em ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px ; font-weight: normal&quot;&gt;1、接收上报的普通文件，保存在临时目录，并校验，非法则删除&lt;/font&gt;&lt;/h4&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;2、将zip文件处理完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;3、去新的文件上报系统拉取样本到指定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;4、解密和unzip解压，解压完移到特定目录&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-1700" y="30" width="690" height="262" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-108" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=#000000;endArrow=open;startSize=14;endSize=14;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=none;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-65" target="hdSKTdFJiRucH8Rsu3lH-107" edge="1">
@@ -221,7 +221,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-137" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;scan_task_reset.py脚本&lt;br&gt;1、查询MongDB库的任务，更新修改时间，任务创建状态，如果已经扫描结束，把数据从&lt;font style=&quot;font-size: 24px&quot; color=&quot;#0000ff&quot;&gt;kcs_scan_task、av_scan_task&lt;/font&gt;表&lt;br&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;备份到&lt;/font&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task_backup、&amp;nbsp;av_scan_task_backup&lt;/font&gt;表&lt;/font&gt;&lt;br&gt;2、所有鉴定器扫完之后移除已经创建扫描器的队列数据&lt;font style=&quot;font-size: 24px&quot;&gt;id=scanner_id+kcs_scan_task+&lt;/font&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;bigfile&lt;br&gt;&lt;/font&gt;&lt;/font&gt;3、记录&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;t_log_force_finish_task&lt;/font&gt;任务完成日志&lt;br&gt;4、修改&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;t_detector_combine_result&lt;/font&gt;表的鉴定结果时间和杀软扫描&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;时间&lt;br&gt;&lt;/span&gt;5、进入总评环节&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 11.3pt&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-2991" y="1999" width="620" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-142" target="LtVPb9jL59xOHaWL_HOs-2">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-142" target="LtVPb9jL59xOHaWL_HOs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-2411" y="2513" />
@@ -232,10 +232,10 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-142" value="&lt;font style=&quot;font-size: 24px&quot;&gt;server/combine/views.py&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;do_combine_if_av_and_detector_finished（）&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;1、查询已经扫描鉴定完成的记录t_detector_combine_result&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span&gt;2、汇总流程中的数据结果转成json（&lt;/span&gt;&lt;/font&gt;&lt;font color=&quot;#ff6666&quot;&gt;t_detector_combine_result、t_sample_task、t_virus_sample_task、&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 24px&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;t_virus_sample_big_text、t_detector_result&lt;/font&gt;）&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;3、开始总评mobile_judge.py&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2991" y="2399" width="620" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-1" value="\" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-144" target="hdSKTdFJiRucH8Rsu3lH-146">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-1" value="\" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-144" target="hdSKTdFJiRucH8Rsu3lH-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LtVPb9jL59xOHaWL_HOs-1" vertex="1" connectable="0">
           <mxGeometry x="0.5681" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -252,7 +252,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-146" value="server/combine/views.py&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;把总评结果记录到&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;&lt;font color=&quot;#ff6666&quot;&gt;t_detector_combine_result&lt;/font&gt;表&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-2991" y="3412" width="620" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-148" target="LtVPb9jL59xOHaWL_HOs-22">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-148" target="LtVPb9jL59xOHaWL_HOs-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-148" value="&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace ; font-size: 15.0667px ; text-align: left&quot;&gt;总评结果是白或者黑&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
@@ -275,36 +275,36 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-152" value="server/view.py&lt;br&gt;1、save_sample_flow_data（）&lt;br&gt;2、把样本流转数据放到redis缓存&lt;font color=&quot;#00cc00&quot;&gt;key=sample_flow_data-{md5}&lt;/font&gt;,有效期3天&lt;br&gt;3、把file_md5保存到redis队列，zadd到&lt;font color=&quot;#00cc00&quot;&gt;name=sample_flow_data_key&lt;/font&gt;的zset&lt;br&gt;4、如果成功没有保存到redis队列，则需要把数据保存到&lt;font color=&quot;#0000ff&quot;&gt;t_sample_flow_task&lt;/font&gt;表&lt;br&gt;5、更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表的combine_end_time时间&lt;br&gt;6、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表的任务，重新插入&lt;br&gt;7、缓存&lt;font style=&quot;font-size: 24px ; background-color: rgb(255 , 255 , 255)&quot;&gt;sample_exists-{md5}6小时，方便其他程序排重&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
           <mxGeometry x="605" y="1145" width="750" height="292" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-2" target="LtVPb9jL59xOHaWL_HOs-6">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LtVPb9jL59xOHaWL_HOs-2" target="LtVPb9jL59xOHaWL_HOs-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-11" value="OTHER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-7">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-11" value="OTHER" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LtVPb9jL59xOHaWL_HOs-7" vertex="1" connectable="0">
           <mxGeometry x="-0.1709" y="2" relative="1" as="geometry">
             <mxPoint x="-4" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-2">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LtVPb9jL59xOHaWL_HOs-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2371" y="2779" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-12" value="UNKNOWN、OLE、MSI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-9">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-12" value="UNKNOWN、OLE、MSI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LtVPb9jL59xOHaWL_HOs-9" vertex="1" connectable="0">
           <mxGeometry x="-0.1219" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-2" target="hdSKTdFJiRucH8Rsu3lH-144">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LtVPb9jL59xOHaWL_HOs-2" target="hdSKTdFJiRucH8Rsu3lH-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-14" value="APK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-10">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-14" value="APK" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LtVPb9jL59xOHaWL_HOs-10" vertex="1" connectable="0">
           <mxGeometry x="-0.372" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-2" value="根据样本类型" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-2" value="根据样本类型" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="-2781" y="2729" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-6" target="LtVPb9jL59xOHaWL_HOs-16">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-6" target="LtVPb9jL59xOHaWL_HOs-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-3146" y="3229" />
@@ -312,24 +312,24 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-6" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span&gt;pc_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fontSize=24;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-6" value="&lt;span style=&quot;text-align: left&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;span&gt;pc_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;fontSize=24;" parent="1" vertex="1">
           <mxGeometry x="-3291" y="2725.25" width="290" height="107.5" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-15" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;根据配置参数&lt;/font&gt;IS_BETA走不一样的测试的鉴定流程&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;npe_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;pc_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;总评完回把云3结果记录在&lt;font color=&quot;#ff6666&quot;&gt;t_test_run_data&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-15" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;根据配置参数&lt;/font&gt;IS_BETA走不一样的测试的鉴定流程&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;mobile_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;npe_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;pc_judge_beta()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;总评完回把云3结果记录在&lt;font color=&quot;#ff6666&quot;&gt;t_test_run_data&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-3771" y="3217" width="620" height="184" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-16" target="LtVPb9jL59xOHaWL_HOs-15">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="LtVPb9jL59xOHaWL_HOs-16" target="LtVPb9jL59xOHaWL_HOs-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-18" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-17">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-18" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="LtVPb9jL59xOHaWL_HOs-17" vertex="1" connectable="0">
           <mxGeometry x="0.0939" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-16" value="&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;IS_BETA?&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-16" value="&lt;pre style=&quot;font-family: &amp;quot;dejavu sans mono&amp;quot;, monospace; font-size: 11.3pt;&quot;&gt;IS_BETA?&lt;/pre&gt;" style="rhombus;whiteSpace=wrap;html=1;labelBackgroundColor=default;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=default;strokeColor=#000000;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="-2781" y="3259" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-21" target="LtVPb9jL59xOHaWL_HOs-16">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LtVPb9jL59xOHaWL_HOs-21" target="LtVPb9jL59xOHaWL_HOs-16" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2681" y="3229" as="targetPoint" />
             <Array as="points">
@@ -338,43 +338,43 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;npe_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=0;fontFamily=Helvetica;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-21" value="&lt;span style=&quot;text-align: left;&quot;&gt;mobile_judge.py&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;npe_judge()&lt;br&gt;......&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=24;fontColor=#000000;fontStyle=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-2371" y="2739" width="250" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务&lt;br&gt;2、重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-22" value="server/view.py&lt;br&gt;1、根据md5删除MongDB的&lt;font color=&quot;#0000ff&quot;&gt;sample_handle_task&lt;/font&gt;表原来的任务&lt;br&gt;2、重新插入最新的总评结果、和病毒名称等信息的任务" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=22;align=left;" parent="1" vertex="1">
           <mxGeometry x="-2406" y="3559" width="410" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-29" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="1190" as="sourcePoint" />
             <mxPoint x="40" y="1140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-36" target="hdSKTdFJiRucH8Rsu3lH-22">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-31" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontFamily=Helvetica;fontSize=24;fontColor=default;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-36" target="hdSKTdFJiRucH8Rsu3lH-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="940" as="sourcePoint" />
             <mxPoint x="90" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-32" target="LtVPb9jL59xOHaWL_HOs-50">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-32" target="LtVPb9jL59xOHaWL_HOs-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-32" value="&lt;font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font face=&quot;microsoft yahei ui&quot; style=&quot;font-size: 24px&quot;&gt;scantaskapplier.py&lt;br&gt;&lt;/font&gt;1、调用&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;basescantaskapplier.py 的run()&lt;/span&gt;&lt;br&gt;2、&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;apply_samples()-&amp;gt;&lt;/span&gt;rpc获取杀软扫描任务a&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;pply_scanner_tasks&lt;/span&gt;()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;apply_scanner_tasks_with_cache&lt;/font&gt;&lt;/span&gt;根据队列&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;id=scanner_id+&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;av_scan_task&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;+&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;bigfile&lt;/font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;，获取队列数据加入到扫描的优先级队列当中&lt;/span&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;id=&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;scanning_queue:&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;kcs_scan_task&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;3、把获取到的任务数据对应的样本下载的样本复制到各个杀软的扫描目录&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;4、&lt;/font&gt;&lt;/span&gt;各个杀软扫描目录，对样本进行扫描&lt;br&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;5、&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px ; font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;scanresultsaver.py扫描结果处理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;查杀完成后，从扫描结果目录读取已经扫描的批次，杀软，扫描病毒信息，然后保存结果&lt;/span&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-32" value="&lt;font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font face=&quot;microsoft yahei ui&quot; style=&quot;font-size: 24px&quot;&gt;scantaskapplier.py&lt;br&gt;&lt;/font&gt;1、调用&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;basescantaskapplier.py 的run()&lt;/span&gt;&lt;br&gt;2、&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;apply_samples()-&amp;gt;&lt;/span&gt;rpc获取杀软扫描任务a&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;pply_scanner_tasks&lt;/span&gt;()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;apply_scanner_tasks_with_cache&lt;/font&gt;&lt;/span&gt;根据队列&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;id=scanner_id+&lt;/font&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;av_scan_task&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;+&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;bigfile&lt;/font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;，获取队列数据加入到扫描的优先级队列当中&lt;/span&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;id=&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;scanning_queue:&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;kcs_scan_task&lt;/font&gt;&lt;font color=&quot;#00cc00&quot; style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;3、把获取到的任务数据对应的样本下载的样本复制到各个杀软的扫描目录&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;4、&lt;/font&gt;&lt;/span&gt;各个杀软扫描目录，对样本进行扫描&lt;br&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;5、&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px ; font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;scanresultsaver.py扫描结果处理&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;查杀完成后，从扫描结果目录读取已经扫描的批次，杀软，扫描病毒信息，然后保存结果&lt;/span&gt;&lt;span style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1960" y="1660" width="820" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-39" value="鉴定器重置流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-39" value="鉴定器重置流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-2823" y="1370" width="284" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-40" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-40" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-1060" y="1785" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-128" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=none;" parent="LtVPb9jL59xOHaWL_HOs-40" vertex="1">
           <mxGeometry width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-35" value="消费队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-40">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-35" value="消费队列" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;fontFamily=Helvetica;fontColor=default;" parent="LtVPb9jL59xOHaWL_HOs-40" vertex="1">
           <mxGeometry x="5" y="25" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-47" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-47" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="-827" y="1650" width="860" height="718.4200000000001" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-68" value="&lt;div&gt;优先级大于0的直接创建杀软扫描任务和鉴定器任务，没有优先级的需要判断MongDB中的&lt;font color=&quot;#0000ff&quot;&gt;kcs_scan_task、av_scan_task&lt;/font&gt;任务数是否都小于10万，是才创建杀软扫描任务和鉴定器任务，否则不创建任务，更新&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;表的错误码9001001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="LtVPb9jL59xOHaWL_HOs-47" vertex="1">
@@ -392,7 +392,7 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-65" value="更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软、鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="LtVPb9jL59xOHaWL_HOs-47" vertex="1">
           <mxGeometry y="649.9989473684209" width="860" height="68.42105263157896" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-45" value="&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_scan_task流程类似，详细逻辑略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-47">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-45" value="&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_scan_task流程类似，详细逻辑略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="LtVPb9jL59xOHaWL_HOs-47" vertex="1">
           <mxGeometry y="581.5789473684208" width="860" height="68.42105263157896" as="geometry" />
         </mxCell>
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-76" value="&lt;div&gt;优先级大于0的直接创建杀软回扫任务和鉴定器回扫&lt;span&gt;任务，没有优先级的需要判断MongDB中的&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_rescan_task、kcs_rescan_task&lt;/span&gt;&lt;span&gt;任务数是否都超过10万，是则不创建杀软扫描任务和鉴定器任务，更新&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;t_sample_elapsed_time &lt;/font&gt;&lt;span&gt;表的错误码&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="1" vertex="1">
@@ -410,22 +410,22 @@
         <mxCell id="hdSKTdFJiRucH8Rsu3lH-75" value="&lt;span style=&quot;color: rgb(0 , 0 , 255)&quot;&gt;av_scan_task流程类似，详细逻辑略&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="213" y="2190" width="860" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-48" value="更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-48" value="更新&lt;font color=&quot;#ff6666&quot;&gt;t_sample_elapsed_time&lt;/font&gt;表杀软和鉴定器任务开始时间" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=22;fontColor=#000000;align=left;" parent="1" vertex="1">
           <mxGeometry x="213" y="2250" width="860" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-50" target="LtVPb9jL59xOHaWL_HOs-53">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-50" target="LtVPb9jL59xOHaWL_HOs-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-50" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;scanresultsaver.py扫描结果处理run()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;basescanresultsaver.py -&amp;gt;save_scan_results()&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;1、查杀完后，将扫描结果的开始、结束时间、&lt;/span&gt;批次，杀软，扫描病毒等信息保存到数据库rpc调用&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;save_scan_result()&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-50" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;scanresultsaver.py扫描结果处理run()&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;basescanresultsaver.py -&amp;gt;save_scan_results()&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;microsoft yahei ui&amp;#34;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;1、查杀完后，将扫描结果的开始、结束时间、&lt;/span&gt;批次，杀软，扫描病毒等信息保存到数据库rpc调用&lt;span style=&quot;font-family: &amp;#34;dejavu sans mono&amp;#34; , monospace&quot;&gt;save_scan_result()&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1960" y="2030" width="820" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-53" target="LtVPb9jL59xOHaWL_HOs-58">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-53" target="LtVPb9jL59xOHaWL_HOs-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-53" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;safescan/&lt;/font&gt;manager.py&lt;br&gt;1、save_scan_result保存数据到&lt;font color=&quot;#ff6666&quot;&gt;t_virus_sample_task&lt;/font&gt;表&lt;br&gt;2、如果是信息比较大保存数据到&lt;font color=&quot;#ff6666&quot;&gt;t_virus_sample_big_text&lt;/font&gt;表&lt;br&gt;3、finish_redis_task（）将结果数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;然后备份到&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task_backup&lt;/font&gt;表，在从&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;删除&lt;br&gt;4、最后把样本的md5的数据从队列移除&lt;font color=&quot;#00cc00&quot;&gt;scanning_queue:{md5}&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-53" value="&lt;font style=&quot;font-size: 24px&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;safescan/&lt;/font&gt;manager.py&lt;br&gt;1、save_scan_result保存数据到&lt;font color=&quot;#ff6666&quot;&gt;t_virus_sample_task&lt;/font&gt;表&lt;br&gt;2、如果是信息比较大保存数据到&lt;font color=&quot;#ff6666&quot;&gt;t_virus_sample_big_text&lt;/font&gt;表&lt;br&gt;3、finish_redis_task（）将结果数据保存到MongDB的&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;然后备份到&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task_backup&lt;/font&gt;表，在从&lt;font color=&quot;#0000ff&quot;&gt;av_scan_task&lt;/font&gt;删除&lt;br&gt;4、最后把样本的md5的数据从队列移除&lt;font color=&quot;#00cc00&quot;&gt;scanning_queue:{md5}&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;fontSize=24;align=left;fontFamily=Helvetica;fontColor=default;fillColor=#FFFFFF;strokeColor=#000000;labelBackgroundColor=default;" parent="1" vertex="1">
           <mxGeometry x="-1960" y="2240" width="820" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;dashed=1;" edge="1" parent="1" source="hdSKTdFJiRucH8Rsu3lH-74">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=24;fontColor=default;dashed=1;" parent="1" source="hdSKTdFJiRucH8Rsu3lH-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-979" y="1810" as="targetPoint" />
             <Array as="points">
@@ -434,45 +434,45 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-57" value="类似流程，逻辑不同，原理都差不多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Helvetica;fontColor=default;" vertex="1" connectable="0" parent="LtVPb9jL59xOHaWL_HOs-56">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-57" value="类似流程，逻辑不同，原理都差不多" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=24;fontFamily=Helvetica;fontColor=default;" parent="LtVPb9jL59xOHaWL_HOs-56" vertex="1" connectable="0">
           <mxGeometry x="0.4873" y="-5" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-58" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#FF6666;align=center;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-58" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#FF6666;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1590" y="2470" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-60" target="LtVPb9jL59xOHaWL_HOs-32">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-60" target="LtVPb9jL59xOHaWL_HOs-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-60" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#97D077;align=center;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-60" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#97D077;align=center;" parent="1" vertex="1">
           <mxGeometry x="-1590" y="1550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" edge="1" parent="1" source="LtVPb9jL59xOHaWL_HOs-62" target="hdSKTdFJiRucH8Rsu3lH-136">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=24;fontColor=default;" parent="1" source="LtVPb9jL59xOHaWL_HOs-62" target="hdSKTdFJiRucH8Rsu3lH-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-62" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#97D077;align=center;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-62" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;fontFamily=Helvetica;fontSize=24;fontColor=#000000;fillColor=#97D077;align=center;" parent="1" vertex="1">
           <mxGeometry x="-2721" y="1473" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-67" value="杀软扫描流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=default;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-67" value="杀软扫描流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=default;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-1670" y="1473" width="240" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-76" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="-2641" y="90" width="810" height="250" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-76" value="" style="group;fontStyle=1" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-2820" y="30" width="990" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-73" value="&lt;font color=&quot;#000000&quot;&gt;颜色说明：&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;align=left;fontStyle=1" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-76">
-          <mxGeometry width="810.0000000000001" height="250" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-73" value="&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; 文字颜色说明：&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;align=left;fontStyle=1" parent="LtVPb9jL59xOHaWL_HOs-76" vertex="1">
+          <mxGeometry width="990.0000000000002" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-70" value="红色的内容是mysql数据库表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#FF6666;fontStyle=1" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-76">
-          <mxGeometry x="223.81578947368422" y="30" width="522.2368421052632" height="20" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-70" value="红色的内容是mysql数据库表" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#FF6666;fontStyle=1" parent="LtVPb9jL59xOHaWL_HOs-76" vertex="1">
+          <mxGeometry x="273.5526315789474" y="31.200000000000003" width="638.2894736842107" height="20.8" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-71" value="绿色的内容是redis队列或者key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#00CC00;fontStyle=1" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-76">
-          <mxGeometry x="223.81578947368422" y="120" width="522.2368421052632" height="20" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-71" value="绿色的内容是redis队列或者key" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#00CC00;fontStyle=1" parent="LtVPb9jL59xOHaWL_HOs-76" vertex="1">
+          <mxGeometry x="273.5526315789474" y="124.80000000000001" width="638.2894736842107" height="20.8" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-72" value="蓝色部分是mongdb的表名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;fontStyle=1" vertex="1" parent="LtVPb9jL59xOHaWL_HOs-76">
-          <mxGeometry x="223.81578947368422" y="200" width="522.2368421052632" height="20" as="geometry" />
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-72" value="蓝色部分是mongdb的表名" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=35;fontColor=#0000FF;fontStyle=1" parent="LtVPb9jL59xOHaWL_HOs-76" vertex="1">
+          <mxGeometry x="273.5526315789474" y="208.00000000000003" width="638.2894736842107" height="20.8" as="geometry" />
         </mxCell>
-        <mxCell id="LtVPb9jL59xOHaWL_HOs-78" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;fontSize=22;align=left;hachureGap=4;" vertex="1" parent="1">
+        <mxCell id="LtVPb9jL59xOHaWL_HOs-78" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=0;fontSize=22;align=left;hachureGap=4;" parent="1" vertex="1">
           <mxGeometry x="-960" y="158" width="80" height="60" as="geometry" />
         </mxCell>
       </root>
